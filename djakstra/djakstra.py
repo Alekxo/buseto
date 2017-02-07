@@ -29,13 +29,13 @@ def djakstra(graph,start,end):
             Q.remove(u)
         except:
             pass
-        for i in range(0,len(adj[u])):
+        for i in range(0,len(adj[u])): #for all adjacent vertices of u
             #print adj[u]
-            v = adj[u][i]
+            v = adj[u][i] # an adjacent vertex of u
             #print (u+","+v)
             if(u != "old" and dist[u] != "inf"):
                 alt = dist[u] + int(length(graph,u,v))
-                if (dist[v] == "inf") or (alt < dist[v]):
+                if (dist[v] == "inf") or (alt < dist[v]): #shorter path found
                     #print "v="+v
                     dist[v] = alt
                     prev[v] = u
@@ -43,7 +43,7 @@ def djakstra(graph,start,end):
     print path(prev,start,end)
     return 
 
-def path(prev,start,end):
+def path(prev,start,end): # returns path from previous vertices prev[] matrix
     paths = []
     while end != start:
         paths.append(end)
