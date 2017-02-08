@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 
-def djakstra(graph, start, end):
+def dijkstra(graph, start, end):
 
     Q = set()  # vertex set
     dist = dict()  # distance from start
@@ -87,7 +87,7 @@ def Main():
                 ["v4", None, 1, 1, None, 3],
                 ["v5", 2, None, None, 3, None]
             ]
-    djakstra(graph, "v1", "v3")
+    dijkstra(graph, "v1", "v3")
     return
 
 if __name__ == "__main__":
