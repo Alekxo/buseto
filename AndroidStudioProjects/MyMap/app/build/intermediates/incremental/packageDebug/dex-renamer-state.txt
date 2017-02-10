@@ -1,0 +1,7 @@
+#Thu Feb 09 20:27:43 NPT 2017
+base.0=/home/krrish/AndroidStudioProjects/MyMap/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a11631ac295553fdfa36f483787f75d34d52b88d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/krrish/AndroidStudioProjects/MyMap/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a7519e37ab71c42d5cd7aff4e62244ad7e8790cf/classes.dex
+base.1=/home/krrish/AndroidStudioProjects/MyMap/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a7519e37ab71c42d5cd7aff4e62244ad7e8790cf
+file.0=/home/krrish/AndroidStudioProjects/MyMap/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a11631ac295553fdfa36f483787f75d34d52b88d/classes.dex
